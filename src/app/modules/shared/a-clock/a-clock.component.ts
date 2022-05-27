@@ -58,13 +58,9 @@ export class AClockComponent implements OnInit, AfterViewInit {
   init(initialDate: string) {
     this.initialDateTime = moment.parseZone(initialDate);
 
-    console.log(this.timeZone);
-    console.log(initialDate);
-
     this.currentHour = this.initialDateTime.hours();
     this.currentMinute = this.initialDateTime.minutes();
     this.currentSecond = this.initialDateTime.seconds();
-
 
     this.x = this.currentSecond * 6;
     this.y = this.currentMinute * 6 + ((6/60) * this.currentSecond);

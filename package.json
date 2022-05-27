@@ -7,7 +7,7 @@
     "start:proxy": "ng serve -o --proxy-config proxy.conf.json",
     "start:mock": "json-server -p 3000 src/app/mocks/db.json --routes src/app/mocks/routes.json ",
     "start:proxy:mock:server": "concurrently -kill-others \"npm run start:mock\" \"npm run start:proxy\"",
-    "build": "ng build",
+    "build": "ng build --base-href 'https://tamerfahmy.github.io/team-calender/'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
