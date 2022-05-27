@@ -8,7 +8,7 @@ export class ApiInterceptor implements HttpInterceptor {
   constructor() { }
 
   intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
-    if (req.url.startsWith('api/')) {
+    if (req.url.startsWith('/api')) {
       return next.handle(this.appendBaseUrl(req));
     }
 
