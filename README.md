@@ -1,4 +1,13 @@
-# TeamCalender
+# Team Calender APP
+[DEMO](https://tamerfahmy.github.io/team-calender/)
+
+![desktop](./screenshots/desktop.png)
+![iphone_7_plus_landscape](./screenshots/iphone_7_plus_landscape.png)
+![iPhone_7_plus_portrait](./screenshots/iPhone_7_plus_portrait.png)
+![ipad_portrait](./screenshots/ipad_portrait.png)
+
+## Introduction
+The aim of this application is to support team members working in different timezones accross the globe to propably setup meetings in respective local time zones.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
 
