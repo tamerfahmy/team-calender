@@ -1,5 +1,5 @@
 # Team Calender APP
-[DEMO](https://tamerfahmy.github.io/team-calender/)
+[DEMO](https://team-calender.herokuapp.com)
 
 ![desktop](./screenshots/desktop.png)
 ![iphone_7_plus_landscape](./screenshots/iphone_7_plus_landscape.png)
@@ -8,6 +8,12 @@
 
 ## Introduction
 The aim of this application is to support team members working in different timezones accross the globe to propably setup meetings in respective local time zones.
+
+## Scripts
+1. `start` this script will run the angular app inside node server. This script is only done for production deployment to heroku server
+2. `start:proxy` this script can be used to run angular app in dev mode. Backend services must be running in a separate process on `http://localhost:3000/api`
+3. `start:mock` This angular project uses JSON-Server libaray to mock backend APIs. This script will launch only the JSON-Server. JSON-Server configurations are under the path `./src/mocks/`
+4. `start:proxy:mock:server` This script will launch the angular application with JSON-Server in development mode. This will allow UI developer to work without running the actual backend APIs
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
 
