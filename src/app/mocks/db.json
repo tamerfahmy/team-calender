@@ -1,0 +1,16 @@
+{
+  "dates": [
+    {
+      "timezone": "Europe/Berlin",
+      "localTime": "2022-05-27T14:54:13+02:00"
+    },
+    {
+      "timezone": "Asia/Kolkata",
+      "localTime": "2022-05-27T18:24:13+05:30"
+    },
+    {
+      "timezone": "America/Guatemala",
+      "localTime": "2022-05-27T06:54:13-06:00"
+    }
+  ]
+}

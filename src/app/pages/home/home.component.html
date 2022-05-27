@@ -1,0 +1,5 @@
+<div class="row">
+  <div class="col-sm text-center" *ngFor="let item of localDateTimes;">
+    <app-a-clock initialDateTimeString='{{ item.localTime }}' timeZone='{{ item.timezone }}'></app-a-clock>
+  </div>
+</div>
