@@ -1,4 +1,6 @@
 # Team Calender APP
+![example workflow](https://github.com/tamerfahmy/team-calender/actions/workflows/node.js.yml/badge.svg)
+
 [DEMO](https://team-calender.herokuapp.com)
 
 ![desktop](./screenshots/desktop.png)
